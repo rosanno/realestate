@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
   });
 
   Router.events.on("routeChangeComplete", () => {
-    NProgress.start();
+    NProgress.done();
   });
 
   return (
